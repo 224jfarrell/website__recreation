@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans:opsz,wght@6..12,500&display=swap');
+
+* {
+    max-width: 1920px;
+    overflow-x: hidden;
+}
+
+.screen{
+    width:1920px;
+    height:923px;
+}
+
+.inl {
+    display: inline;
+}
+
+.nav {
+    font-family: 'Montserrat', sans-serif;
+    color: #141414;
+    font-weight: 700;
+}
+
+.active {
+    color: #10c9c3;
+}
+
+.content-header {
+    font-family: 'Montserrat', sans-serif;
+    color: #141414;
+}
+
+.subcontent {
+    font-family: 'Montserrat', sans-serif;
+    color: #787878;
+    line-height: 2;
+}
+
+.flex {
+    display: flex;
+}
+
+.button {
+    border: 0;
+    background-color: #10c9c3;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 25px 50px 25px 50px;
+    font-weight: 500;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.progress-bar {
+    background-color: #10c9c3 !important;
+}
+
+.progress {
+    height: 4px !important;
+    border-radius: 0 !important;
+    background-color: #cdd1d5 !important;
+}
+
+
+#half-screen-1a {
+    background-color: #F5F5F5;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#half-screen-1b {
+    background-image: url(images/stil-sHGyGynyD5Y-unsplash.png);
+    height: 626.39px;
+}
+
+#h-20p {
+    height: 20px;
+    width: 1920px;
+}
+
+#h-170p {
+    height: 170px;
+    width: 1920px;
+}
+
+#h-80p {
+    height: 80px;
+    width: 1920px;
+}
+
+#screen1{
+    background-image: url('images/aidan-hancock-8RU4OuA6Yug-unsplash.png');
+    background-size:cover;
+}
+
+#screen2 > #innerhalf{
+    background-image: url('images/stil-sHGyGynyD5Y-unsplash.png');
+    background-size: cover;
+}
