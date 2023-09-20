@@ -5,6 +5,10 @@
     overflow-x: hidden;
 }
 
+h5{
+    line-height: 1.3 !important;
+}
+
 .screen{
     width:1920px;
     height:923px;
@@ -62,15 +66,32 @@
     background-color: #cdd1d5 !important;
 }
 
+.blue {
+    background-color: #10c9c3;
+}
+
+.not-full {
+    width: 20% !important;
+    margin: 2.5% 0 0 5% !important;
+}
+
+.stat {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    width: 60%;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
 
 #half-screen-1a {
     background-color: #F5F5F5;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 250px;
+    padding-bottom: 250px;
 }
 
 #half-screen-1b {
     background-image: url(images/stil-sHGyGynyD5Y-unsplash.png);
+    background-size: 100%;
     height: 626.39px;
 }
 
@@ -92,9 +113,4 @@
 #screen1{
     background-image: url('images/aidan-hancock-8RU4OuA6Yug-unsplash.png');
     background-size:cover;
-}
-
-#screen2 > #innerhalf{
-    background-image: url('images/stil-sHGyGynyD5Y-unsplash.png');
-    background-size: cover;
 }
