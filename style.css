@@ -9,6 +9,11 @@ h5{
     line-height: 1.3 !important;
 }
 
+.col-xxl-3>img {
+    width:100%;
+    height: 423.52px;
+}
+
 .screen{
     width:1920px;
     height:923px;
@@ -72,15 +77,35 @@ h5{
 
 .not-full {
     width: 20% !important;
-    margin: 2.5% 0 0 5% !important;
+    margin: 2.5% 0 1.25% 5% !important;
 }
 
 .stat {
     font-family: "Montserrat", sans-serif;
     color: white;
     width: 60%;
-    margin-right: 0 !important;
-    margin-left: 0 !important;
+}
+
+.stath {
+    margin-left: 30px;
+}
+
+.statp {
+    margin-left: 75px;
+}
+
+.product-line {
+    height: 423.52px;
+}
+
+.product-line>.col-xxl-3 {
+    padding: 0 !important;
+}
+
+.hover:hover {
+    filter: brightness(50%);
+    transition-duration: .75s;
+    transition-timing-function: forwards;
 }
 
 #half-screen-1a {
@@ -113,4 +138,13 @@ h5{
 #screen1{
     background-image: url('images/aidan-hancock-8RU4OuA6Yug-unsplash.png');
     background-size:cover;
+}
+
+#filler {
+    background-color: #F5f5f5;
+    height:80px;
+}
+
+#serviceText {
+    margin-top: 30px;
 }
